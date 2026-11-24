@@ -48,6 +48,8 @@ OSPTEK 桌面 AI 搭子 · ESP32-P4C5 主控 · 3.95 英寸屏 · 摄像头 · 6
 
 主控板的原理图、尺寸、接口与 GPIO 资料见 [ESP32-P4C5-Module 开发板](https://github.com/osptek/devboard-esp32p4c5_module) 仓库。
 
+6 键 + 摇杆的按键板工程（嘉立创 EDA 专业版，2026-11-23）：[hardware/NestStation_Keypad_EasyEDA_20261123.epro2](./hardware/NestStation_Keypad_EasyEDA_20261123.epro2)。
+
 ## 相关资料
 
 - [ESP32-P4C5-Module 开发板（主控板资料、原理图、固件）](https://github.com/osptek/devboard-esp32p4c5_module)

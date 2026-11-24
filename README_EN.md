@@ -48,6 +48,8 @@ It is built on the [ESP32-P4C5-Module dev board](https://github.com/osptek/devbo
 
 For the carrier schematic, dimensions, interfaces and GPIO, see the [ESP32-P4C5-Module dev board](https://github.com/osptek/devboard-esp32p4c5_module) repository.
 
+Keypad board project (6 keys + joystick, EasyEDA Pro, 2026-11-23): [hardware/NestStation_Keypad_EasyEDA_20261123.epro2](./hardware/NestStation_Keypad_EasyEDA_20261123.epro2).
+
 ## Related resources
 
 - [ESP32-P4C5-Module dev board (carrier docs, schematic, firmware)](https://github.com/osptek/devboard-esp32p4c5_module)
