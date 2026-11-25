@@ -1,15 +1,17 @@
 # 灵栖小站 NestStation
 
-OSPTEK 桌面 AI 搭子 · ESP32-P4C5 主控 · 3.95 英寸屏 · 摄像头 · 6 键 + 摇杆
+OSPTEK 桌面开发套件 · ESP32-P4C5 主控 · 3.95 英寸屏 · 摄像头 · 扬声器 · 麦克风 · 6 键 + 摇杆
 
 <p align="center">
-  <img src="docs/images/banner.png" alt="OSPTEK 灵栖小站 NestStation 桌面 AI 搭子" width="100%">
+  <img src="docs/images/banner.png" alt="OSPTEK 灵栖小站 NestStation 桌面开发套件" width="100%">
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/MCU-ESP32--P4C5-2F6F55?style=flat-square&labelColor=14201B" alt="MCU">
   <img src="https://img.shields.io/badge/Display-3.95%22-2F6F55?style=flat-square&labelColor=14201B" alt="Display">
   <img src="https://img.shields.io/badge/Camera-onboard-2F6F55?style=flat-square&labelColor=14201B" alt="Camera">
+  <img src="https://img.shields.io/badge/Speaker-NS4150-2F6F55?style=flat-square&labelColor=14201B" alt="Speaker">
+  <img src="https://img.shields.io/badge/Mic-onboard-2F6F55?style=flat-square&labelColor=14201B" alt="Mic">
   <img src="https://img.shields.io/badge/Input-6%20keys%20%2B%20joystick-2F6F55?style=flat-square&labelColor=14201B" alt="Input">
 </p>
 
@@ -23,7 +25,7 @@ OSPTEK 桌面 AI 搭子 · ESP32-P4C5 主控 · 3.95 英寸屏 · 摄像头 · 6
 
 灵栖小站（NestStation）是 OSPTEK 推出的桌面开发套件，对应仓库 `devkit-p4c5_station_3.95`。
 
-整机基于 [ESP32-P4C5-Module 开发板](https://github.com/osptek/devboard-esp32p4c5_module)，搭载 3.95 英寸屏幕，顶部带摄像头，正面有 6 个机械按键和 1 个摇杆。屏幕微微后仰，摆在桌面上抬头即可看见；白色机身，背面留有出音孔。
+整机基于 [ESP32-P4C5-Module 开发板](https://github.com/osptek/devboard-esp32p4c5_module)，搭载 3.95 英寸屏幕，顶部带摄像头，正面有 6 个机械按键和 1 个摇杆，并带扬声器和板载麦克风。屏幕微微后仰，摆在桌面上抬头即可看见；白色机身，背面留有出音孔。
 
 <p align="center">
   <img src="images/product.jpg" alt="灵栖小站正面" width="45%">
@@ -43,6 +45,8 @@ OSPTEK 桌面 AI 搭子 · ESP32-P4C5 主控 · 3.95 英寸屏 · 摄像头 · 6
 | 主控 | ESP32-P4C5（[ESP32-P4C5-Module 开发板](https://github.com/osptek/devboard-esp32p4c5_module)） |
 | 显示屏 | 3.95 英寸，微微后仰安装 |
 | 摄像头 | 机身顶部 |
+| 扬声器 | 主控板 ES8311 编解码 + NS4150 功放（3 W D 类），MX1.25-2P 接口，背面出音 |
+| 麦克风 | 主控板板载硅麦 LMA3729T421-OA1 |
 | 输入 | 6 个机械按键 + 1 个摇杆 |
 | 外壳 | 白色机身 |
 

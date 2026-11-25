@@ -1,15 +1,17 @@
 # NestStation (灵栖小站)
 
-OSPTEK Desk AI Companion · ESP32-P4C5 · 3.95-inch display · camera · 6 keys + joystick
+OSPTEK desktop development kit · ESP32-P4C5 · 3.95-inch display · camera · speaker · microphone · 6 keys + joystick
 
 <p align="center">
-  <img src="docs/images/banner_en.png" alt="OSPTEK NestStation desk AI companion" width="100%">
+  <img src="docs/images/banner_en.png" alt="OSPTEK NestStation desktop development kit" width="100%">
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/MCU-ESP32--P4C5-2F6F55?style=flat-square&labelColor=14201B" alt="MCU">
   <img src="https://img.shields.io/badge/Display-3.95%22-2F6F55?style=flat-square&labelColor=14201B" alt="Display">
   <img src="https://img.shields.io/badge/Camera-onboard-2F6F55?style=flat-square&labelColor=14201B" alt="Camera">
+  <img src="https://img.shields.io/badge/Speaker-NS4150-2F6F55?style=flat-square&labelColor=14201B" alt="Speaker">
+  <img src="https://img.shields.io/badge/Mic-onboard-2F6F55?style=flat-square&labelColor=14201B" alt="Mic">
   <img src="https://img.shields.io/badge/Input-6%20keys%20%2B%20joystick-2F6F55?style=flat-square&labelColor=14201B" alt="Input">
 </p>
 
@@ -23,7 +25,7 @@ OSPTEK Desk AI Companion · ESP32-P4C5 · 3.95-inch display · camera · 6 keys 
 
 NestStation (灵栖小站) is an OSPTEK desktop development kit; this repository is `devkit-p4c5_station_3.95`.
 
-It is built on the [ESP32-P4C5-Module dev board](https://github.com/osptek/devboard-esp32p4c5_module), with a 3.95-inch display, a camera on top, and six mechanical keys plus a joystick on the front. The screen is tilted slightly backward so it is easy to see on a desk. The body is white, with sound holes on the back.
+It is built on the [ESP32-P4C5-Module dev board](https://github.com/osptek/devboard-esp32p4c5_module), with a 3.95-inch display, a camera on top, six mechanical keys plus a joystick on the front, a speaker, and an onboard microphone. The screen is tilted slightly backward so it is easy to see on a desk. The body is white, with the speaker opening on the back.
 
 <p align="center">
   <img src="images/product.jpg" alt="NestStation front view" width="45%">
@@ -43,6 +45,8 @@ It is built on the [ESP32-P4C5-Module dev board](https://github.com/osptek/devbo
 | MCU | ESP32-P4C5 ([ESP32-P4C5-Module dev board](https://github.com/osptek/devboard-esp32p4c5_module)) |
 | Display | 3.95-inch, mounted with a slight backward tilt |
 | Camera | On top of the body |
+| Speaker | ES8311 codec + NS4150 3 W Class-D amp on the carrier, MX1.25-2P connector, opening on the back |
+| Microphone | Onboard silicon mic LMA3729T421-OA1 on the carrier |
 | Input | 6 mechanical keys + 1 joystick |
 | Enclosure | White body |
 
